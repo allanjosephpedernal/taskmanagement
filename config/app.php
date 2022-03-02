@@ -174,6 +174,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
+        /*
+         * Plugins Service Providers...
+         */
+        JamesDordoy\LaravelVueDatatable\Providers\LaravelVueDatatableServiceProvider::class,
 
     ],
 
