@@ -3,7 +3,7 @@
 
 ## Install dependencies
 <p>Go to root directory</p>
-<p>Execute composer update</p>
+<p>Execute composer install</p>
 <p>Execute npm install</p>
 
 ## DB
@@ -14,8 +14,7 @@
 ## Build
 <p>Execute npm run dev
 
-
 ## laravel
 <p>Inside root directory execute php artisan serve</p>
 <p>Access task manager in http://localhost:8000</p>
-<p>Register any account that you want then login to the system and you will be automatically redirected to task management page</p>
+<p>Register any credentials that you want then login to the system then you will be automatically redirected to task management page.</p>
