@@ -60,8 +60,8 @@ class TaskController extends Controller
             // count error
             if (count($error) > 0)
             {
-                // response
-                return $this->respondWithError($error);
+                // return
+                return \Response::json(['message' => $error], 400);
             }
 
             // extract
@@ -128,8 +128,8 @@ class TaskController extends Controller
             // count error
             if (count($error) > 0)
             {
-                // response
-                return $this->respondWithError($error);
+                // return
+                return \Response::json(['message' => $error], 400);
             }
 
             // extract
