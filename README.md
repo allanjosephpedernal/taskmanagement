@@ -1,4 +1,5 @@
 # Task Management
+<p>This is a test from ThinkSmart Software</p>
 
 ## Install dependencies
 <p>Go to root directory</p>
@@ -12,6 +13,7 @@
 
 ## Build
 <p>Execute npm run dev
+
 
 ## laravel
 <p>Inside root directory execute php artisan serve</p>
